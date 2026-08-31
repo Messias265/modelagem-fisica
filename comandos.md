@@ -53,7 +53,7 @@ CREATE TABLE lojas_produtos(
     estoque INT NOT NULL,
 
     -- Definindo a chave primária COMPOSTA
-    PRIMARY KEY(loja_id, produto_id)
+    PRIMARY KEY(loja_id, produto_id),
 
     -- Criando as FKs apontando para as PKs de cada tabela
 
